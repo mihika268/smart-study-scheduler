@@ -1,0 +1,62 @@
+/* Theme Variations */
+
+/* Dark Theme */
+body.dark-theme {
+    --bg-primary: #1e293b;
+    --bg-secondary: #0f172a;
+    --text-primary: #f1f5f9;
+    --text-secondary: #94a3b8;
+    --border-color: #334155;
+}
+
+/* Color Schemes */
+body.blue-scheme {
+    --primary-color: #3b82f6;
+}
+
+body.purple-scheme {
+    --primary-color: #8b5cf6;
+}
+
+body.green-scheme {
+    --primary-color: #10b981;
+}
+
+body.orange-scheme {
+    --primary-color: #f59e0b;
+}
+
+body.pink-scheme {
+    --primary-color: #ec4899;
+}
+
+body.red-scheme {
+    --primary-color: #ef4444;
+}
+
+/* Pastel Theme */
+body.pastel-theme {
+    --bg-primary: #fef7ff;
+    --bg-secondary: #faf5ff;
+    --primary-color: #a855f7;
+    --border-color: #e9d5ff;
+}
+
+/* Minimal Theme */
+body.minimal-theme {
+    --bg-primary: #ffffff;
+    --bg-secondary: #fafafa;
+    --border-color: #f0f0f0;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    --shadow-lg: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* High Contrast Theme */
+body.high-contrast-theme {
+    --bg-primary: #000000;
+    --bg-secondary: #1a1a1a;
+    --text-primary: #ffffff;
+    --text-secondary: #cccccc;
+    --border-color: #444444;
+    --primary-color: #00ff00;
+}
