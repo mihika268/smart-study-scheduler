@@ -2,12 +2,14 @@
   "name": "smart-study-scheduler",
   "version": "1.0.0",
   "description": "A comprehensive study scheduler with AI-powered features for students",
+  "homepage": "https://mihika268.github.io/smart-study-scheduler",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
     "init-db": "node database/init.js",
-    "build": "npm install"
+    "build": "echo 'Build complete for GitHub Pages'",
+    "deploy": "gh-pages -d public"
   },
   "engines": {
     "node": ">=18.0.0",
